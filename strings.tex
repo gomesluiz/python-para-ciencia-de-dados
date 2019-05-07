@@ -1,0 +1,49 @@
+\begin{frame}[t, fragile, allowframebreaks]{Strings}
+  \begin{itemize}
+    \item Um {\bf string} é uma cadeia de caracteres envolvida por aspas simples ou duplas
+    \begin{itemize}
+      \item "Data Science", 'Programming', "Python"
+    \end{itemize}
+    \item Mudando para letras maiúsculas e minúsculas
+    \begin{lstlisting}[language=python]
+      nome = "ada Lovelace"
+      print(nome.title())
+      Ada Lovelace
+      print(nome.upper())
+      ADA LOVELACE
+      print(nome.lower())
+      ada lovelace
+    \end{lstlisting}
+    \pagebreak
+    \item Combinando ou concatenando strings
+    \begin{lstlisting}[language=python]
+      primeiro_nome = "ada"
+      segundo_nome = "lovelace"
+      nome_completo = primero_nome + " " + segundo_nome
+      mensagem = "Ola  , " + nome_completo.title() + "!"
+      print(mensagem)
+      Boa tarde, Ada Lovelace!
+    \end{lstlisting}
+    \item Acrescentando espaços com tabulações ou quebras de linhas
+    \begin{lstlisting}[language=python]
+      print("\tAda Lovelace")
+        Ada Lovelace
+      print("Ada\nLovelace")
+        Ada
+        Lovelace
+    \end{lstlisting}
+    \pagebreak
+    \item Removendo espaços em branco
+    \begin{lstlisting}[language=python]
+      nome = " Ada Lovelace " 
+      print("["+nome.rstrip()+"]")
+      [ Ada Lovelace]
+      print("["+nome.rstrip()+"]")
+      [Ada Lovelace ]
+      print("["+nome.strip()+"]")
+      [Ada Lovelace]
+    \end{lstlisting}
+  \end{itemize}
+\end{frame}
+
+ 

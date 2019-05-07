@@ -1,0 +1,15 @@
+\frametitle{Zen do Python}
+\begin{enumerate}
+    \item Bonito é melhor do que feio
+    \item Simples é melhor que complexo
+    \item Complexo é melhor que complicado
+    \item Legibilidade conta
+    \item Deve haver -e, de preferência, apenas uma maneira óbvia de fazer algo
+    \item Agora é melhor do que nunca
+  \end{enumerate}
+  \begin{lstlisting}[language=python]
+      >>> import this
+      The Zen of Python, by Tim Peters
+
+      Beautiful is better than ugly
+  \end{lstlisting}
