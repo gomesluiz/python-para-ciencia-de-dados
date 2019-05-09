@@ -1,0 +1,70 @@
+
+\begin{frame}[t, fragile]{Percorrendo uma lista com um laço}
+  \begin{itemize}
+    \item Um laço {\bf for} permite que se percorra uma lista de início até o final
+    \lstinputlisting[language=python]{codigos/listas/listas13.py}
+    \item a linha 2 deverá estar {\bf indentada} para ser executada pelo laço for
+  \end{itemize}
+\end{frame}
+%
+\begin{frame}[t, fragile, allowframebreaks]{Criando listas numéricas}
+  \begin{itemize}
+    \item A função {\bf range} permite a geração de uma série de números
+    \lstinputlisting[language=python]{codigos/listas/listas14.py}
+     \item A  função range {\bf NÃO} exibe o limite superior do intervalo.
+     \item Um salto pode ser fornecido para a função {\bf range} para que a função ignore alguns números no intervalo
+    \lstinputlisting[language=python]{codigos/listas/listas15.py}
+\pagebreak
+    \item Outro Exemplo: Imprimindo os 10 primeiros quadrados perfeitos
+    \lstinputlisting[language=python]{codigos/listas/listas16.py}
+  \end{itemize}
+\end{frame}
+%
+\begin{frame}[t, fragile, allowframebreaks]{Estatísticas simples com lista de números}
+  \begin{itemize}
+    \item {\bf min()}, {\bf max()} e {\bf sum()} são funções específicas para listas de números:
+    \lstinputlisting[language=python]{codigos/listas/listas17.py}
+  \end{itemize}
+\end{frame}
+%
+\begin{frame}[t, fragile]{List comprehensions}
+  \begin{itemize}
+    \item Combina o laço {\bf for} e a criação de novos elementos em uma lista, e concatena cada novo elemento automaticamente
+    \lstinputlisting[language=python]{codigos/listas/listas18.py}
+  \end{itemize}
+\end{frame}
+%
+\begin{frame}[t, fragile, allowframebreaks]{Fatiando uma lista}
+  \begin{itemize}
+    \item É necessário especificar o índice do primeiro e do último elemento desejado
+    \lstinputlisting[language=python]{codigos/listas/listas19.py}
+    \item O intervalo 0:3 faz com os elementos 0, 1 e 2 sejam impressos
+    \item Se o primeiro índice de uma fatia for omitido, Python comecará automaticamente do inicio da lista
+    \lstinputlisting[language=python]{codigos/listas/listas20.py}
+    \item Todos os elementos a partir de qualquer posição podem ser apresentados, até mesmo a partir do final
+    \lstinputlisting[language=python]{codigos/listas/listas21.py}
+  \end{itemize}
+\end{frame}
+%
+\begin{frame}[t, fragile]{Percorrendo uma fatia com um laço}
+  \begin{itemize}
+    \item Pode-se utiliza um laço {\bf for} para percorrer os elementos de uma fatia:                                                                                                                                                  
+    \lstinputlisting[language=python]{codigos/listas/listas22.py}
+  \end{itemize}
+\end{frame}
+%
+\begin{frame}[t, fragile]{Copiando uma lista}
+  \begin{itemize}
+    \item Pode-se criar uma fatia que inclua a lista original inteira omitindo o primeiro e o segundo índice ([:])
+    \lstinputlisting[language=python]{codigos/listas/listas23.py}
+    \item \alert{Isto não funciona!}
+    \lstinputlisting[language=python]{codigos/listas/listas24.py}
+  \end{itemize}  
+\end{frame}
+%
+
+
+
+
+
+ 

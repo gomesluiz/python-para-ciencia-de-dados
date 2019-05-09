@@ -1,10 +1,2 @@
-\frametitle{Inserindo elementos em uma lista}
-\begin{itemize}
-    \item O método {\bf insert} permite adicionar um elemento em qualquer posição da lista
-    \begin{lstlisting}[language=python]
-      mestres = ['yoda', 'qui-gon', 'kenobi', 'luke']
-      mestres.insert(0, 'vader')
-      print(mestres)
-      ['vader', 'yoda', 'qui-gon', 'kenobi', 'luke']
-    \end{lstlisting}
-  \end{itemize}
+\frametitle{Uma lista de dicionarios}
+\lstinputlisting[language=python]{codigos/listas/listas41.py}

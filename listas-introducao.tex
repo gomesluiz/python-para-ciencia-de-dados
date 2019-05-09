@@ -1,5 +1,5 @@
 
-\begin{frame}[t, fragile, allowframebreaks]{Listas}
+\begin{frame}[t, fragile]{Introdução às Listas}
   \begin{itemize}
     \item Coleção de itens em uma ordem particular
     \item Itens podem ser letras, dígitos e etc.
@@ -56,7 +56,7 @@
   \end{itemize}
 \end{frame}
 %
-\begin{frame}[t, fragile, allowframebreaks]{Inserindo elementos em uma lista}
+\begin{frame}[t, fragile]{Inserindo elementos em uma lista}
   \begin{itemize}
     \item O método {\bf insert} permite adicionar um elemento em qualquer posição da lista
     \begin{lstlisting}[language=python]
@@ -67,6 +67,64 @@
     \end{lstlisting} 
   \end{itemize}
 \end{frame}
+%
+\begin{frame}[t, fragile]{Removendo elementos da com {\bf del}}
+  \begin{itemize}
+    \item O comando {\bf del} remove item da lista 
+    \begin{lstlisting}[language=python]
+      mestres = ['yoda', 'qui-gon', 'kenobi', 'luke']
+      del(mestres[0])
+      print(mestres)
+      ['qui-gon', 'kenobi', 'luke']
+    \end{lstlisting} 
+    \item Não é possível reutilizar o elemento removido
+  \end{itemize}
+\end{frame}
+%
+\begin{frame}[t, fragile]{Removendo elementos da lista com {\bf pop}}
+  \begin{itemize}
+    \item O método {\bf pop} remove o último item da lista por padrão, sendo que elemento removido pode ser reutilizado
+    \lstinputlisting[language=python]{codigos/listas/listas6.py}
+    \item De fato, o método {\bf pop} pode ser utilizado para remover qualquer elemento da lista, basta passar o índice do elemento
+    \lstinputlisting[language=python]{codigos/listas/listas7.py}
+  \end{itemize}
+  
+\end{frame}
+%
+%  \begin{frame}[t, fragile]{Removendo elementos da lista com {\bf remove}}
+%    \begin{itemize}
+%      \item O método {\bf remove} um elemento de acordo com seu valor.
+%      \lstinputlisting[language=python]{codigos/listas/listas8.py}
+%    \end{itemize}  
+%  \end{frame}
+%
+\begin{frame}[t, fragile]{Ordenando a lista com {\bf sort}}
+  \begin{itemize}
+    \item O método {\bf sort} altera a forma da lista permanentemente 
+    \lstinputlisting[language=python]{codigos/listas/listas9.py}
+    \item O método {\bf sort} permite ordenar a lista em ordem alfabética inversa
+    \lstinputlisting[language=python]{codigos/listas/listas10.py}
+  \end{itemize}  
+\end{frame}
+%
+\begin{frame}[t, fragile]{Ordenando a lista com {\bf sorted}}
+  \begin{itemize}
+    \item O método {\bf sorted} mantém a forma original da lista
+    \lstinputlisting[language=python]{codigos/listas/listas11.py}
+  \end{itemize}  
+\end{frame}
+%
+\begin{frame}[t, fragile]{Exibindo uma lista em ordem inversa com {\bf reverse}}
+  \begin{itemize}
+    \item O método {\bf reverse} mantém a forma original da lista
+    \lstinputlisting[language=python]{codigos/listas/listas12.py}
+  \end{itemize}  
+\end{frame}
+%
+
+
+
+
 
 
  
