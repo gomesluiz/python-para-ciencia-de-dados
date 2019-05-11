@@ -40,7 +40,7 @@
 
 \usetheme[pageofpages=of,
           alternativetitlepage=true,
-          titlepagelogo=logo-telekinesis,
+          titlepagelogo=figuras/python-logo-big,
           ]{Torino}
           
 \usecolortheme{freewilly}
@@ -48,28 +48,42 @@
 
 \author{Luiz Alberto}
 \title{Python para Ciência de Dados}
+\subtitle{Fundamentos da Linguagem Python}
 \institute{Ciência da Computação}
 \date{\today}
 
 % The log drawn in the upper right corner.
-\logo{\includegraphics[height=0.125\paperheight]{logo-telekinesis}}
+\logo{\includegraphics[height=0.125\paperheight]{figuras/python-logo-small}}
 
 \begin{document}
   \begin{frame}[t,plain]
     \titlepage
   \end{frame}
   
+  
+  \include{estrutura}
+  \include{horario}
+  \include{data-science}
+  \include{python}
+  %\include{anaconda}
   \include{tipos}
+  \include{entrada}
   \include{strings}
   \include{numeros}
   \include{comentarios}
   \include{zen-do-python}
+  \include{exercicios-1}
   \include{listas-introducao}
+  \include{exercicios-2}
   \include{listas-trabalhando}
+  \include{exercicios-3}
   \include{tuplas}
+  \include{exercicios-4}
   \include{if}
+  \include{exercicios-5}  
   \include{dicionarios}
-  %\include{pandas}
+  \include{exercicios-6}
+  \include{funcoes}
   
 
 
