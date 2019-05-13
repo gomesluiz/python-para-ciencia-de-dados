@@ -1,0 +1,5 @@
+nome = input("Entre com o seu nome: ")
+print("[" + nome + "]")
+print("[" + nome.lstrip() + "]")
+print("[" + nome.rstrip() + "]")
+print("[" + nome.strip() + "]")

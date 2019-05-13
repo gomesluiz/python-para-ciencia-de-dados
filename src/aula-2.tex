@@ -1,0 +1,75 @@
+\documentclass[t, final, 12pt, xcolor={usenames,dvipsnames}, table]{beamer}
+
+\usepackage{xcolor}
+\usepackage{listings}
+%\usepackage{lstlinebgrd}
+\usepackage[normalem]{ulem}
+\useunder{\uline}{\ul}{}
+
+
+ 
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstset{
+    basicstyle=\scriptsize\ttfamily,
+    keywordstyle=\color{blue},
+    identifierstyle=\color{black},
+    commentstyle=\color{orange},
+	stringstyle=\color{codepurple},
+    showstringspaces=false,
+    numberstyle=\color{gray}\tiny,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    extendedchars=\true,
+    inputencoding=utf8,
+    frame=tb, 
+    columns=fixed,
+    backgroundcolor=\color{red!32!green!33!blue!5},
+    language=Python
+}
+
+\usetheme[pageofpages=of,
+          alternativetitlepage=true,
+          titlepagelogo=python-logo-big,
+          ]{Torino}
+          
+\usecolortheme{freewilly}
+
+
+\author{Luiz Alberto}
+\title{Python para Ciência de Dados}
+\subtitle{Matplotlib Básico}
+\institute{Ciência da Computação}
+\date{\today}
+
+\logo{\includegraphics[height=0.125\paperheight]{python-logo-small}}
+
+\begin{document}
+  
+  \begin{frame}[t,plain]
+    \titlepage
+  \end{frame}
+  
+  
+  \include{aula-2/dataviz-basic-matplotlib}
+  \include{aula-2/dataviz-basic-matplotlib-lineplot}
+  \include{aula-2/dataviz-basic-matplotlib-scatterplot}
+  \include{aula-2/dataviz-basic-matplotlib-pratica-1}
+  \include{aula-2/dataviz-basic-matplotlib-histogram}
+  \include{aula-2/dataviz-basic-matplotlib-cutomizacao}
+  
+
+
+\end{document}
+
