@@ -84,5 +84,35 @@
   \lstinputlisting[language=python, firstline=6]{aula-2/codigos/pandas/pandas-dataframes-8.py}  
 \end{frame}
 %
+\begin{frame}[t, fragile, allowframebreaks]{Filtrando dados no dataframe}
+  \begin{itemize}
+    \item brics.csv
+  \end{itemize}
+  \lstinputlisting[language=python, lastline=12]{aula-2/codigos/pandas/pandas-dataframes-9.py}  
+  \framebreak
+  \begin{itemize}
+    \item Meta: filtrar os países cuja área seja maior do que 8km
+    \begin{enumerate}
+      \item selecionar a coluna área
+      \item comparar a coluna selecionada
+      \item Utilizar o resultado para selecionar os países
+    \end{enumerate}
+    \framebreak
+    \item {\bf Passo 1}: selecionar a coluna desejada
+    \lstinputlisting[language=python, firstline=14, lastline=20]{aula-2/codigos/pandas/pandas-dataframes-9.py} 
+    \framebreak
+    \item {\bf Passo 2}: comparar a coluna selecionada
+    \lstinputlisting[language=python, firstline=22, lastline=28]{aula-2/codigos/pandas/pandas-dataframes-9.py}  
+    \framebreak
+    \item {\bf Passo 3}: filtrando o dataset
+    \lstinputlisting[language=python, firstline=30, lastline=34]{aula-2/codigos/pandas/pandas-dataframes-9.py}  
+  \end{itemize}
+  
+\end{frame}
+%
+\begin{frame}[t, fragile, allowframebreaks]{Operadores booleanos}
+  \lstinputlisting[language=python]{aula-2/codigos/pandas/pandas-dataframes-10.py}  
+\end{frame}
+%
 
 
