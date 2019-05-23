@@ -1,2 +1,0 @@
-teste = True
-print(teste)
