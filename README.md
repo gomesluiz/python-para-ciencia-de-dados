@@ -1,4 +1,4 @@
-# Python para Ciência de Dados
+# Minicurso Python para Ciência de Dados
 
 <table width="100%">
   <thead>
