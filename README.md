@@ -1,5 +1,6 @@
 # Minicurso Python para Ciência de Dados
 
+## Material Didático
 <table width="100%">
   <thead>
     <th>Data</th>
@@ -16,5 +17,5 @@
   </tbody>
 </table>
 
-# Vídeos
+## Vídeos
 1. [The Story of Python, by Its Creator, Guido van Rossum](https://www.youtube.com/watch?v=J0Aq44Pze-w)
