@@ -13,7 +13,7 @@
       <strong>1.&nbsp;&nbsp;Introdução</strong>
       <p>> Fundamentos da linguagem Python</p>
     </td>
-    <td>[Aula 1](https://github.com/gomesluiz/python-para-ciencia-de-dados/blob/master/slides/aula-1.pdf)</td>
+    <td><a href="https://github.com/gomesluiz/python-para-ciencia-de-dados/blob/master/slides/aula-1.pdf">Aula 1</a></td>
     <td></td>
   </tbody>
 </table>
