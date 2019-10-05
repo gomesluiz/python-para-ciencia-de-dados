@@ -2,11 +2,13 @@
 
 <table>
   <thead>
-    <th>Lição</th>
+    <th>Data</th>
+    <th>Aula</th>
     <th>Conteúdo</th>
     <th>Prática</th>
   </thead>
   <tbody>
+    <td>05-10-2019</td>
     <td>
       <strong>1.&nbsp;&nbsp;Introdução</strong>
       <p>> Fundamentos da linguagem Python</p>
