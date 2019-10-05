@@ -1,11 +1,10 @@
 # Python para Ciência de Dados
 
-<table>
+<table width="100%">
   <thead>
     <th>Data</th>
     <th>Aula</th>
     <th>Conteúdo</th>
-    <th>Prática</th>
   </thead>
   <tbody>
     <td>05-10-2019</td>
@@ -13,8 +12,7 @@
       <strong>1.&nbsp;&nbsp;Introdução</strong>
       <p>> Fundamentos da linguagem Python</p>
     </td>
-    <td><a href="https://github.com/gomesluiz/python-para-ciencia-de-dados/blob/master/slides/aula-1.pdf">Aula 1</a></td>
-    <td></td>
+    <td align="center"><a href="https://github.com/gomesluiz/python-para-ciencia-de-dados/blob/master/slides/aula-1.pdf">Aula 1</a></td>
   </tbody>
 </table>
 
