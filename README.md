@@ -1,7 +1,7 @@
 # Minicurso Python para Ciência de Dados
 
 ## Material Didático
-<table width="100%">
+<table width="100px">
   <thead>
     <th>Data</th>
     <th>Aula</th>
