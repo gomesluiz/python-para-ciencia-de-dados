@@ -26,8 +26,8 @@
       <p>> Análise e visualização de dados com Pandas e Matplotlib</p>
     </td>
     <td align="center"><a href="https://github.com/gomesluiz/python-para-ciencia-de-dados/blob/master/slides/aula-2.pdf">Aula 2</a></td>
-    <td></td>
-    <td></td>
+    <td align="center"><a href="https://github.com/gomesluiz/python-para-ciencia-de-dados/blob/master/notebooks/aula-2-notebooks.zip">Notebooks</a></td>
+    <td align="center"><a href="https://github.com/gomesluiz/python-para-ciencia-de-dados/blob/master/slides/aula-2.pdf">Aula 2</a></td>
   </tbody>
 </table>
 
