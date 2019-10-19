@@ -10,10 +10,18 @@
   <tbody>
     <td>05-10-2019</td>
     <td>
-      <strong>1.&nbsp;&nbsp;Introdução</strong>
-      <p>> Fundamentos da linguagem Python</p>
+      <strong>1.&nbsp;&nbsp;Fundamentos de Python</strong>
+      <p>> Estruturas básicas da linguagem Python</p>
     </td>
     <td align="center"><a href="https://github.com/gomesluiz/python-para-ciencia-de-dados/blob/master/slides/aula-1.pdf">Aula 1</a></td>
+  </tbody>
+  <tbody>
+    <td>19-10-2019</td>
+    <td>
+      <strong>2.&nbsp;&nbsp;Análise e Visualização de Dados</strong>
+      <p>> Análise e visualização de dados com Pandas e Matplotlib</p>
+    </td>
+    <td align="center"><a href="https://github.com/gomesluiz/python-para-ciencia-de-dados/blob/master/slides/aula-2.pdf">Aula 2</a></td>
   </tbody>
 </table>
 
