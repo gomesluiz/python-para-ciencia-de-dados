@@ -33,7 +33,7 @@
   <tr>
     <td>26-10-2019</td>
     <td>
-      <strong>2.&nbsp;&nbsp;Importação de Dados com Pandas</strong>
+      <strong>3.&nbsp;&nbsp;Importação de Dados com Pandas</strong>
       <p>> Importação dados em vários formatos com Pandas</p>
     </td>
     <td align="center"><a href="https://github.com/gomesluiz/python-para-ciencia-de-dados/blob/master/slides/aula-3.pdf">Slides(3)</a></td>
