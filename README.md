@@ -10,6 +10,7 @@
     <th>Projetos</th>
   </thead>
   <tbody>
+    <tr>
     <td>05-10-2019</td>
     <td>
       <strong>1.&nbsp;&nbsp;Fundamentos de Python</strong>
@@ -18,8 +19,8 @@
     <td align="center"><a href="https://github.com/gomesluiz/python-para-ciencia-de-dados/blob/master/slides/aula-1.pdf">Slides(1)</a></td>
     <td></td>
     <td></td>
-  </tbody>
-  <tbody>
+  </tr>
+  <tr>
     <td>19-10-2019</td>
     <td>
       <strong>2.&nbsp;&nbsp;Análise e Visualização de Dados</strong>
@@ -28,6 +29,17 @@
     <td align="center"><a href="https://github.com/gomesluiz/python-para-ciencia-de-dados/blob/master/slides/aula-2.pdf">Slides(2)</a></td>
     <td align="center"><a href="https://github.com/gomesluiz/python-para-ciencia-de-dados/blob/master/notebooks/aula-2-notebooks.zip">Notebooks(2)</a></td>
     <td align="center"><a href="https://github.com/gomesluiz/python-para-ciencia-de-dados/blob/master/projetos/lego.zip">Lego</a></td>
+  </tr>
+  <tr>
+    <td>26-10-2019</td>
+    <td>
+      <strong>2.&nbsp;&nbsp;Importação de Dados com Pandas</strong>
+      <p>> Importação dados em vários formatos com Pandas</p>
+    </td>
+    <td align="center"><a href="https://github.com/gomesluiz/python-para-ciencia-de-dados/blob/master/slides/aula-3.pdf">Slides(3)</a></td>
+    <td align="center"><a href="https://github.com/gomesluiz/python-para-ciencia-de-dados/blob/master/notebooks/aula-3-notebooks.zip">Notebooks(3)</a></td>
+    <td align="center"></td>
+  </tr>
   </tbody>
 </table>
 
