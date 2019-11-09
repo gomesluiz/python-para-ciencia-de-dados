@@ -40,6 +40,16 @@
     <td align="center"><a href="https://github.com/gomesluiz/python-para-ciencia-de-dados/blob/master/notebooks/aula-3-notebooks.zip">Notebooks(3)</a></td>
     <td align="center"></td>
   </tr>
+  <tr>
+    <td>09-11-2019</td>
+    <td>
+      <strong>3.&nbsp;&nbsp;Banco de Dados e Web Scraping</strong>
+      <p>> Banco de Dados e Web Scraping</p>
+    </td>
+    <td align="center"><a href="https://github.com/gomesluiz/python-para-ciencia-de-dados/blob/master/slides/aula-4.pdf">Slides(4)</a></td>
+    <td align="center"><a href="https://github.com/gomesluiz/python-para-ciencia-de-dados/blob/master/notebooks/aula-4-notebooks.zip">Notebooks(4)</a></td>
+    <td align="center"></td>
+  </tr>
   </tbody>
 </table>
 
